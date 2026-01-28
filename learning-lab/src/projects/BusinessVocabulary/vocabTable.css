@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+:root {
+    --font-main: 'Inter', 'sans-serif';
+    --font-radio: 'Radio Canada';
+    --font-arabic: 'Tajawal';
+    --soft-font-color: #555;
+    --high-freq: #FF4136;
+    --med-freq: #FF851B;
+    --low-freq: #2ECC40;
+    --rare-freq: #0074D9;
+    --bg-color: #F4F7F6;
+    --dark-bg-color: #090a0a;
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.category-container {
+    background-color: var(--dark-bg-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 30px;
+}
+
+.category-name {
+    color:#ffffff;
+}
+/* =============================
+    TABLE STYLES
+============================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    background-color: var(--bg-color);
+}
+
+thead tr {
+    font-family: var(--font-main);
+    font-size: 18px;
+    background-color: #d9dfdd;
+    color: var(--soft-font-color);
+    letter-spacing: 1px;
+}
+
+/* -----------------------------
+    frequency colors
+------------------------------*/
+.high-freq {
+    border-left: 10px solid var(--high-freq);
+}
+.med-freq {
+    border-left: 10px solid var(--med-freq);
+}
+.low-freq {
+    border-left: 10px solid var(--low-freq);
+}
+.rare-freq {
+    border-left: 10px solid var(--rare-freq);
+}
+
+/* -----------------------------
+    th 
+------------------------------*/
+th {
+    text-align: left;
+}
+
+/* -----------------------------
+    td 
+------------------------------*/
+td, th {
+    width: auto;
+    padding: 1rem;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.en-word {
+    font-family: var(--font-radio);
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #222;
+    /* border-left: 4px solid #2ECC40; */
+}
+.meaning {
+    font-family: var(--font-arabic);
+    font-weight: 500;
+    text-align: right;
+}
+
+.defAr {
+    font-family: var(--font-arabic);
+    font-weight: 500;
+    text-align: right;
+}
+
+.word-row {
+    
+}
