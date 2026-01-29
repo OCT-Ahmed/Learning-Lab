@@ -183,5 +183,4 @@ export const businessWords: BusinessWord[] = [
     defEn: "An idea or plan put forward for consideration",
     defAr: "فكرة أو خطة مقدمة للنظر فيها",
     },
-];
-console.log(businessWords);
+]; 
